@@ -39,7 +39,7 @@ var processData = (err, result) => {
 async.waterfall([
 	fetchFile,
 	getData],
-	processDatagit
+	processData
 );
 
 
